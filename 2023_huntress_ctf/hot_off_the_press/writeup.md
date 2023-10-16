@@ -11,7 +11,7 @@ given is a file "hot_off_the_press"
 ## solve
 
 file is UHarc archive 
-extract with uharc.exe tool downloaded from: http://fileformats.archiveteam.org/wiki/UHARC
+extract with uharc.exe tool in repo or downloaded from: http://fileformats.archiveteam.org/wiki/UHARC
 
 due to following lines in the powershell script you notice that the payload is base64 encoded and gzipped. 
 ```ps1
