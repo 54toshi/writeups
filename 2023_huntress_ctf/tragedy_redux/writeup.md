@@ -17,5 +17,5 @@ pip install oletools
 olevba openxml.zip -z infected -f word/vbaProject.bin > macro.vba
 ```
 
-edit the code, so the encrypted string will be outputted to Debug console
+edit the code, so the encrypted string will be outputted to Debug console -> file in repo (edited_macro.vba)
 
