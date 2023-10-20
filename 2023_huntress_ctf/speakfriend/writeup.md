@@ -20,16 +20,15 @@ when you give it the given host you will notice in wireshark that it is sending 
 ./main http://chal.ctf.games:32580
 ```
 
-![tls_traffic_in_wireshark.png](tls_traffic_in_wireshark.png)
-
 to view the decrypted TLS traffic set the $SSLKEYLOGFILE environment variable to a file where the private keys should be stored
 ```bash
 touch /home/kali/key.txt
 export SSLKEYLOGFILE=/home/kali/key.txt
 ```
 
-then in wireshark go to "Edit -> Preferences -> RSA Keys -> Add new keyfile" and select the just created file. now the traffic is decrypted and viewable.
+then in wireshark go to "Edit -> Preferences -> RSA Keys -> Add new keyfile" and select the just created file. now the traffic is decrypted and viewable (blue marked line points to flag):
 
+![tls_traffic_in_wireshark.png](tls_traffic_in_wireshark.png)
 
 ## resources
 https://wiki.wireshark.org/TLS
