@@ -8,9 +8,9 @@ People say you shouldn't plug in USB drives! But I discovered this neat file on 
 2. convert the base32 code found on the google drive to an executable DLL
 3. now there are 3 ways:
     - run DLL with:
-```powershell
-rundll32.exe thumb_drive.dll, anything
-```
+    ```powershell
+    rundll32.exe thumb_drive.dll, anything
+    ```
     - extract strings with floss: https://github.com/mandiant/flare-floss
     - you could just reverse it
 
