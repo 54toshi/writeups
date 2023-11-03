@@ -18,6 +18,10 @@ given: Will you be able to sky down the hill and avoid the monster? Play the gam
 go.ctf.site:10070
 
 ```bash
+# download skifree.exe:
+wget http://go.ctf.site:10070/GAMES/skifree.exe
+
+# check what it is: 
 file skifree.exe
 skifree.exe: MS-DOS executable, NE for MS Windows 3.x (3.0) (EXE)  # output
 ```
