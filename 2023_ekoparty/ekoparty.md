@@ -12,6 +12,19 @@ files are found on gopher site at:
 put them together and decrypt them with uudecoder like:
 - https://toolslick.com/text/decoder/uudecode
 
+## sky
+given: Will you be able to sky down the hill and avoid the monster? Play the game and get some points!
+
+go.ctf.site:10070
+
+```bash
+file skifree.exe
+skifree.exe: MS-DOS executable, NE for MS Windows 3.x (3.0) (EXE)  # output
+```
+to run skifree.exe:
+1. download: https://github.com/otya128/winevdm
+2. now skifree.exe can be run natively in windows 10
+3. flag is received when winning game
 
 ## who 
 given: "My friend Daniel has a secret between his fingers!" and go.ctf.site:10079
