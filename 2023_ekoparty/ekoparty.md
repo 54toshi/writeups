@@ -30,6 +30,9 @@ to run skifree.exe:
 given: "My friend Daniel has a secret between his fingers!" and go.ctf.site:10079
 
 ```bash
+# download skifree.exe
+wget http://go.ctf.site:10070/GAMES/skifree.exe
+
 # first enumerate:
 nmap -A -Pn -sV -vvv go.ctf.site -p 10079
 
