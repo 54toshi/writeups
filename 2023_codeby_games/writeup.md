@@ -8,6 +8,8 @@
     - [Hidden Trace](#hidden-trace)
 - Web:
     - [magical admin](#magical-admin)
+- Stego:
+    - [Winter is near](#winter-is-near)
 - Misc:
     - [Carousel](#carousel)
     - [rgb](#rgb)
@@ -129,6 +131,52 @@ for ($i = 1; $i <= 9999999999; $i++) {
 
 ?>
 ```
+
+## winter is near
+- given is an simple ascii text file with the lyrics of "we wish you a merry christmas" and a bunch of whitespace in it.
+- on first thought I tried executing it as the Whitespace programming language, it writes a bunch of data to the stack but when printing it to stout you just get a bunch of gibberish.
+- In retrospect I find out that it must be solved with the snow.exe or stegsnow utility which then after a simple command prints out the flag:
+```bash
+# uncompress whitespace:
+stegsnow -C winter.txt
+```
+
+```
+We wish you a merry Christmas	     	 	      	     	 	    
+We wish you a merry Christmas     	    	     	    		     
+We wish you a merry Christmas and a happy new year      	   	   
+Good tidings we bring to you and your kin  	      	     	  	 
+We wish you a merry Christmas and a happy new year       	 
+	  	   	 	     	 	      	    	    	  
+Oh, bring us some figgy pudding     	   	     	      	       	   
+Oh, bring us some figgy pudding	   		     	       	       	    
+Oh, bring us some figgy pudding	 	     	  	       	  	    
+And bring it right here  	     	     	       	       	    
+	     	  	       	    	   	  	       	       	 
+Good tidings we bring to you and your kin 		    		      
+We wish you a merry Christmas and a happy new year      	   	       
+       	 	    	    	    		      	      	     	   
+We won't go until we get some   	    	 	   	       	       
+We won't go until we get some 	  	 	      		    	      
+We won't go until we get some       	   	    	   	     	    
+So bring it right here      	     	  	 	 	    	  
+  	 	  	      	     	   	 
+Good tidings we bring to you and your kin
+We wish you a merry Christmas and a happy new year
+
+We all like our figgy pudding
+We all like our figgy pudding
+We all like our figgy pudding
+With all its good cheers
+
+Good tidings we bring to you and your kin
+We wish you a merry Christmas and a happy new year
+
+We wish you a merry Christmas
+We wish you a merry Christmas
+We wish you a merry Christmas and a happy new year
+```
+
 
 ## mathematician
 - given is an tcp socket (netcat) which provides 50 mathematic equations display behind each other which must be solved in five seconds.
