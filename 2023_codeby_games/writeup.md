@@ -102,9 +102,7 @@ image.save("output.png")  # Save the image as a file
 image.show()  # Display the image using the default image viewer
 ```
 
-Output from script:
 <img src="rgb_output.png" alt="output image python script" width="350"/>
-Output from aperisolve.com:
 <img src="rgb_output2.png" alt="output image aperisolve" width="350"/>
 
 
