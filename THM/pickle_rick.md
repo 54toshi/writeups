@@ -1,6 +1,7 @@
 
 # pickle rick
-- you get an ip address (10.10.209.99) with the instructions to find 3 ingredients/ flags
+you get an ip address (10.10.209.99) with the instructions to find 3 ingredients/ flags <br>
+https://tryhackme.com/room/picklerick
 
 
 # solution 
