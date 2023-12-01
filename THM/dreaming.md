@@ -4,7 +4,7 @@ Solve the riddle that dreams have woven.
 
 ## 1. lucien flag
 
-on http://MACHINE_IP/app/pluck-4.7.13/ runs https://github.com/pluck-cms/pluck. To access the admin panel you need to guess the password which is "password". The pluck version 4.7.13 has an RCE vulnerability - CVE-2020-29607, for which there is an exploit available at exploit-db. Just change the ip, port, password in the script, and then try to view the uploaded image in the webapp, which will trigger the webshell inside the image. <br>
+on http://MACHINE_IP/app/pluck-4.7.13/ runs https://github.com/pluck-cms/pluck. To access the admin panel you need to guess the password which is "password". The pluck version 4.7.13 has an RCE vulnerability - CVE-2020-29607, for which there is an exploit available at exploit-db. Just change the ip, port and password in the script and execute, then try to view the uploaded image in the webapp, which will trigger the webshell inside the image. <br>
 https://nvd.nist.gov/vuln/detail/CVE-2020-29607 <br>
 https://www.exploit-db.com/exploits/49909
 
