@@ -4,7 +4,7 @@ you get an ip address (10.10.209.99) with the instructions to find 3 ingredients
 https://tryhackme.com/room/picklerick
 
 
-# solution 
+## solution 
 1. its an webserver with an login page under <ip>/login.php
 2. the user is found in the main html source code, the password is found in <ip>/robots.txt
 3. the input field is an linux shell:
