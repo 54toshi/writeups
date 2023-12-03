@@ -37,6 +37,19 @@ git cat-file -p 955de908450115ce7b6892c2a58c03e7e2221a6f
 "password": "VFVDVEZ7NzNycjRmMHJtX1M3QTczLTF5XzUzY3IzNzV9Cg==", // ZG9wX3YxXzA3ZmJjODgwY2YwNTNhOTE5Nzk4MDdkZmFhZjhhZDVjOTg4MGFiYWUxZjhkZjJjY2VjZTk2Njk0MmFmNDE0MDgK < Change this before going !
 ```
 
+## free proxy
+Description: <br>
+Given are two ports i.e. Alice and Bob
+
+You are an proxy between those two parties and must intercept their RSA encrypted traffic. <br>
+Key exchange:
+    - Bob pub -> proxy
+    - proxy pub -> Alice
+    - Alice pub -> proxy
+    - proxy pub -> Bob
+
+script to solve it -> [free_proxy.py](./free_proxy.py)
+
 # Pwn
 
 ## hidden values
