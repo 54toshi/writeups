@@ -1,5 +1,6 @@
 # OpenECSC 2024
-
+https://github.com/ECSC2024/openECSC-2024
+https://open.ecsc2024.it/
 
 ### Index
 - [Web](#web)
