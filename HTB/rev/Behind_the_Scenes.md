@@ -14,6 +14,11 @@ Simply replace the UD2 instructions with NOP instructions in the disassembly to 
 
 Then look up the flag string in the hexview located at the address referenced by first strncmp() call. <br>
 
+Sources: <br>
+https://en.wikipedia.org/wiki/C_signal_handling <br>
+https://www.gnu.org/software/libc/manual/html_node/Program-Error-Signals.html <br>
+https://mudongliang.github.io/x86/html/file_module_x86_id_318.html <br>
+
 deobfuscated pseudo code from Ghidra disassembler:
 ```C
 undefined8 main(int argc, char **argv)
