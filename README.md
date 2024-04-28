@@ -10,8 +10,8 @@ Writeups for ctfs in which I participate. <br>
 | [ctf.ekoparty.org](https://ekoparty.org)   | 2022-11-03 | P01s0n3d_fl4g           | 32      | 550               | -                   | [writeups](2023_ekoparty/ekoparty.md)    |
 | [codeby.games](https://codeby.games)       | 2022-11-13 | P01s0n3dFl4g            | 103     | 1169              | ~3500               | [writeups](2023_codeby_games/writeup.md) |
 | [tuctf](https://tuctf.com/2022)            | 2023-12-03 | P01s0n3d_Fl4g           | 56      | 764               | -                   | [writeups](2023_tuctf/writeup.md)        |
-| [openECSC 2024 round 1](https://open.ecsc2024.it/) | 20-03-18 | solo |  | | 2700 | [writeups](2024_OpenECSC/round1.md) | 
-| [openECSC 2024 round 2](https://open.ecsc2024.it/) | 20-04-22 | solo | 129 | - | 2700 | [writeups](2024_OpenECSC/round2.md) | 
+| [openECSC 2024 round 1](https://open.ecsc2024.it/) | 2024-03-18 | solo |  | | 2700 | [writeups](2024_OpenECSC/round1.md) | 
+| [openECSC 2024 round 2](https://open.ecsc2024.it/) | 2024-04-22 | solo | 129 | - | 2700 | [writeups](2024_OpenECSC/round2.md) | 
 
 ### other writeups
 
