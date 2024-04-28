@@ -67,6 +67,7 @@ This is a perfect challenge to showcase a simple angr usecase. <br>
 You tell angr to explore the binary until it reaches the success stdout output while avoiding the failure stdout output. <br>
 
 ```python
+import angr
 import claripy
 import sys
 
@@ -127,6 +128,13 @@ nc yetanotherguessinggame.challs.open.ecsc2024.it 38010 <br>
 It is a ret2libc challenge with every protection enabled. <br>
 
 ### Solution
+
+1. first you have to get the stack canary by guessing it byte by byte. <br>
+2. then you do the same with an address with known offset (main+198) on the stack. <br>
+3. with that address you calculate the base of the binary. <br>
+4. then you leak the address of puts from the GOT to calculate the base of libc. <br>
+5. finally you use a one_gadget to get a shell. <br>
+
 
 ```bash
 # file ./yet_another_guessing_game
