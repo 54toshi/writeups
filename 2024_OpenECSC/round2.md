@@ -7,7 +7,7 @@ https://open.ecsc2024.it/
 - [Web](#web)
     - [WOauth a laundry!](#WOauth)
 - [Reversing](#Reversing)
-    - [fsvm1](#chal1)
+    - [anti-rev](#anti-rev)
 - [Pwn](#Pwn)
     - [guessinggame](#guessinggame)
 - [Misc](#misc)
