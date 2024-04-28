@@ -1,4 +1,4 @@
-# OpenECSC 2024
+# OpenECSC 2024 round 1
 https://github.com/ECSC2024/openECSC-2024 <br>
 https://open.ecsc2024.it/
 
