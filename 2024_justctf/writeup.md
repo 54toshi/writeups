@@ -1,7 +1,8 @@
 
 
 # justctf 2024
-https://2024.justctf.team/
+https://2024.justctf.team/ <br>
+ctftime: https://ctftime.org/event/2342
 
 
 # Wild West 

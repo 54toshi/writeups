@@ -12,7 +12,8 @@ Writeups for ctfs in which I participate. <br>
 | [tuctf](https://tuctf.com/2022) | 2023-12-03 | P01s0n3d_Fl4g | 56 | 764 | - | [writeups](2023_tuctf/writeup.md) |
 | [openECSC 2024 round 1](https://open.ecsc2024.it/) | 2024-03-18 | solo | 200 | - | 2700 | [writeups](2024_OpenECSC/round1.md) | 
 | [openECSC 2024 round 2](https://open.ecsc2024.it/) | 2024-04-22 | solo | 129 | - | 2700 | [writeups](2024_OpenECSC/round2.md) | 
-| [justctf 2024](https://https://2024.justctf.team/) | 2024-06-05 | TeamAustria | 3 | - | - | [writeups](2024_justctf/writeup.md) |
+| [justctf 2024](https://https://2024.justctf.team/) | 2024-06-05 | TeamAustria | 3 | 437 | - | [writeups](2024_justctf/writeup.md) |
+| [uiuctf 2024](https://2024.uiuc.tf/) | 2024-06-29 | TeamAustria | 4 | 959 | - | [writeups](2024_uiuctf/writeup.md) |
 
 ### other writeups
 
@@ -25,3 +26,5 @@ tryhackme profile: https://tryhackme.com/p/53toshi <br>
 hackthebox profile: https://app.hackthebox.com/profile/1743550 <br>
 ctftime: https://ctftime.org/user/179019 <br>
 ctftime P01s0n3d_Fl4g: https://ctftime.org/team/273774 <br>
+ctftime TeamAustria: https://ctftime.org/team/193899 <br>
+github TeamAustria: https://github.com/TeamAustria
