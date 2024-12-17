@@ -1,6 +1,6 @@
 ## writeups
 
-Writeups for ctfs in which I participate. <br>
+Writeups for [ctfs](https://en.wikipedia.org/wiki/Capture_the_flag_\(cybersecurity\)) in which I participate. <br>
 
 ### CTFs
 
@@ -14,6 +14,7 @@ Writeups for ctfs in which I participate. <br>
 | [openECSC 2024 round 2](https://open.ecsc2024.it/) | 2024-04-22 | solo | 129 | - | 2700 | [writeups](2024_OpenECSC/round2.md) | 
 | [justctf 2024](https://https://2024.justctf.team/) | 2024-06-05 | TeamAustria | 3 | 437 | - | [writeups](2024_justctf/writeup.md) |
 | [uiuctf 2024](https://2024.uiuc.tf/) | 2024-06-29 | TeamAustria | 4 | 959 | - | [writeups](2024_uiuctf/writeup.md) |
+| [HTB University ctf 2024](https://www.hackthebox.com/universities/university-ctf-2024) | 2024-12-15 | - | - | - | - | [writeups](2024_htb_universityctf/writeup.md) |
 
 ### other writeups
 
@@ -22,7 +23,7 @@ hackthebox writeups: [HTB](HTB)
 
 ### Profiles
 
-tryhackme profile: https://tryhackme.com/p/53toshi <br>
+tryhackme profile: https://tryhackme.com/p/54toshi <br>
 hackthebox profile: https://app.hackthebox.com/profile/1743550 <br>
 ctftime: https://ctftime.org/user/179019 <br>
 ctftime P01s0n3d_Fl4g: https://ctftime.org/team/273774 <br>
